@@ -99,7 +99,7 @@ To create a policy on container and generate a Shared Access Signature (SAS) key
     # Create a new storage account context using an ARM storage account  
     $storageContext = New-AzureStorageContext -StorageAccountName $storageAccountName -StorageAccountKey $accountKeys[0].Value 
   
-    \<#  
+    <#  
     Using the Classic deployment model  
     Use the following four lines to use an existing classic storage account  
     #>  
